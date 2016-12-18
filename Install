@@ -1,0 +1,15 @@
+Download the zip fil and unzip.
+UnPBO your mission file.
+Create a new folder called 'Custom' (skip this if a folder by that name already exists).
+Copy the rearm folder to the Custom folder.
+Copy the Init.sqf file to the root folder of the mission file, or merge it with your existing init.sqf file if it already exists.
+
+Configure the re-arm script by opening the service_point.sqf file and changing the _servicePointClasses variable to the classname of whatever map item you want to use as a re-arm and repair point.
+Note that it is configured to use a chenrarus map item by default so you MUST find something on the map you aree using to use as a re-arm/repair point.
+Set the Repair and Re-arm costs to your liking.
+Change any other settings you like.
+Save the file.
+
+Re-PBO your mission file and push it to the server.
+
+PROFIT!
